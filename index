@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hai Everyone</h1>
+
+    <!-- Dicetak tebal, miring, dan dengan garis bawah -->
+    <p><b>Lorem</b> <i>ipsum</i> <u>dolor.</u></p>
+
+    <!-- penggunaan tag heading (judul) dengan tingkat berbeda -->
+    <h1>Karasuno, fly high.</h1>
+    <h2>Karasuno, fly high.</h2>
+    <h3>Karasuno, fly high.</h3>
+    <h4>Karasuno, fly high.</h4>
+    <h5>Karasuno, fly high.</h5>
+    <h6>Karasuno, fly high.</h6>
+
+    <!-- penggunaan tag sup (superscript) dan sub (subscript) -->
+    <p>3<sup>3</sup> = 27</p>
+    <p>H<sub>2</sub>O</p>
+
+    <!-- penggunaan list (daftar) -->
+    <!-- Unordered list -->
+    <ul type="square">
+        <li>hai</li>
+        <li>hello</li>
+        <li>annyeong</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <ol type="1">
+        <li>ichi</li>
+        <li>ni</li>
+        <li>san</li>
+    </ol>
+
+    <!-- penggunaan tabel -->
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Kageyama Tobio</td>
+            <td>Karasuno</td>  
+        </tr>
+        <tr>
+            <td>Ainun Permatasari</td>
+            <td>PSTI</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="2">Semua</td>
+        </tr>
+    </table>
+    <br>
+
+    <!-- image -->
+    <!-- Dengan sumber dari internet -->
+    <img src="https://wallpapercave.com/wp/wp8645181.jpg" alt="Karasuno">
+    <!-- Dengan sumber dari penyimpanan lokal -->
+    <img src="c:\Users\AdM\Pictures\OIP.jpg" alt="pemandangan">
+
+    <!-- anchor -->
+    <!-- Membuat teks yang mengarah ke halaman/web tertentu -->
+    <a href="https://google.com">Google</a>
+    <a href="https://www.google.com/maps/">Google Maps</a>
+
+    <!-- penggunaan iframe -->
+    <!-- Menampilkan peta Google Maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.866026718472!2d107.44212597324446!3d-6.5385979639171135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e68a1406c01%3A0xa66f34eb29c41198!2sUniversitas%20Pendidikan%20Indonesia%2C%20Kampus%20Purwakarta!5e0!3m2!1sid!2sid!4v1695292066571!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- penggunaan form -->
+    <form>
+        <!-- Ini adalah input untuk nama -->
+        <label for="nama">Nama :</label>
+        <input type="text"><br>
+        
+        <!-- Ini adalah input untuk password -->
+        <label for="password">Password :</label>
+        <input type="password">
+        
+        <!-- Ini adalah input checkbox -->
+        <input type="checkbox"><br>
+        
+        <!-- Ini adalah input untuk tanggal -->
+        <input type="date">
+        
+        <!-- Ini adalah tombol submit -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
